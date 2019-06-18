@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Star Wars RPG</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+
+</head>
+<header>Star Wars RPG Sith</header>
+
+<body background="./assets/images/background.jpg">
+    <row id="characterrow">
+        <div class="card-deck">
+            <div class="col-sm-2" id="char1">
+                <div class="card border-danger text-primary bg-danger" style="width: 200px">
+                    <div class="card-header" style="text-align: center">
+                        Kylo Ren
+                    </div>
+                    <img src="./assets/images/character1.jpg" width="200px" height="150px">
+                    <div class="card-footer" style="text-align: center">
+                        120
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2" id="char2">
+                <div class="card border-danger text-primary bg-danger" style="width: 200px">
+                    <div class="card-header" style="text-align: center">
+                        Jango Fett
+                    </div>
+                    <img src="./assets/images/character2.jpg" width="200px" height="150px">
+                    <div class="card-footer" style="text-align: center">
+                        120
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2" id="char3">
+                <div class="card border-danger text-primary bg-danger" style="width: 200px">
+                    <div class="card-header" style="text-align: center">
+                        Kylo Ren
+                    </div>
+                    <img src="./assets/images/character3.jpg" width="200px" height="150px">
+                    <div class="card-footer" style="text-align: center">
+                        120
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-2" id="char4">
+                <div class="card border-danger text-primary bg-danger" style="width: 200px">
+                    <div class="card-header" style="text-align: center">
+                        Kylo Ren
+                    </div>
+                    <img src="./assets/images/character4.jpg" width="200px" height="150px">
+                    <div class="card-footer" style="text-align: center">
+                        120
+                    </div>
+                </div>
+            </div>
+        </div>
+    </row>
+    <row id="yourcharacter">
+        <h1>Your character</h1>
+    </row>
+    <row>
+        <h1>Enemies available to attack</h1>
+        <div class="card-deck" id="enemies">
+        </div>
+    </row>
+    <row id="fightsection">
+        <h1>Fight Section</h1>
+        <button id="attack">
+            Attack
+        </button>
+    </row>
+    <row id="defender">
+        <h1>Defender</h1>
+    </row>
+
+
+    <script src="assets/javascript/game.js"></script>
+</body>
+
+</html>
