@@ -1,3 +1,7 @@
+body {
+    background: url("../images/background.jpg") no-repeat;
+    background-size: cover;
+}
 header {
     color: crimson;
     font-size: 50px;
@@ -7,5 +11,17 @@ h1 {
     color: crimson;
 }
 button {
+    color: blue;
+    background-color: crimson;
+    border: blue;
+    font-size: 12px;
+}
+.card-header, .card-footer {
+    text-align: center;
+    color: blue;
+    height: 40px;
+}
+.message {
+    font-size: large;
     color: blue;
 }
