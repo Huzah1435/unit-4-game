@@ -224,6 +224,8 @@ $("#attack").click(function () {
         console.log("you won the game");
         $(".message").text("You Won The Game!")
 
+        location.reload(true);
+
 
     }
 
